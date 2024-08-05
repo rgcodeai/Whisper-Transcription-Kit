@@ -39,6 +39,11 @@ Refer to our detailed guide for [installing Whisper on Windows](https://misterco
     - The script will automatically process all the files present in the **`input/`** folder and generate the transcriptions in the **`output/`** folder.
 3. **Access the Transcriptions**: Once the transcription process is complete, you can find the resulting texts in the **`output/`** folder. Each transcription file will be named after the original file for easy identification.
 
+## Change Log
+
+- **March 30, 2024**: Project published.
+- **August 4, 2024**: Automatically selects the device on which the models should be loaded, either CUDA or CPU. If CUDA is not available, it will run on CPU. It also makes it easy to change models, the "medium" model is used by default. If you want to change models just replace the word "medium" with (tiny, base, small, or large).
+
 ## Languages
 
 - [Español](docs/es/README_ES.md)
